@@ -7,6 +7,8 @@ export default function App() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    setTodos([...todos, {id: crypto.randomUUID(), title: newItem, completed: false}])
   }
 
   return (
@@ -14,9 +16,7 @@ export default function App() {
       <form onSubmit={handleSubmit} className="new-item-form">
         <div className="form-row">
           <label htmlFor="item">New Item</label>
-          <input
-            value={newItem}
-            //onInput: handle real-time inputs. onChange will handle the input after comitted by the user
+          <input value={newItem}//onInput: handle real-time inputs. onChange will handle the input after comitted by the user
             onChange={(e) => setNewItem(e.target.value)}
             type="text"
             id="item"
