@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import './styles.css';
 
 export default function App() {
@@ -10,6 +10,8 @@ export default function App() {
 
     setTodos([...todos, {id: crypto.randomUUID(), title: newItem, completed: false}])
   }
+  
+  
 
   return (
     
@@ -21,8 +23,12 @@ export default function App() {
             onChange={(e) => setNewItem(e.target.value)}
             type="text"
             id="item"
+            
           />
         </div>
+        <div> 
+
+          </div>;
         <button className="btn">Add</button>
       </form>
       <h1 className="header">Todo List</h1>
