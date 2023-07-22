@@ -1,8 +1,42 @@
-# React + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Welcome to my small project To-Do List
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+
+- **Add/Delete notes in the todo list**
+
+---
+
+- **Able to check the checkboxes**
+
+---
+
+- **Stores your list in local storage**
+
+---
+
+- **Intermediate Javascript Knowledge**
+
+---
+
+- **Intermediate React Knowledge**
+
+## How to run
+
+To run the app:<br>
+1. Npm install <br>
+2. Npm run dev
+
+## Built With
+
+Javascript, Html, SCC, React
+
+## Authors
+
+**Ryan Kim** - [Ryankrdh](https://github.com/ryankrdh)
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
